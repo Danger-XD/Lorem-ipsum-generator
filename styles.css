@@ -1,0 +1,117 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    outline: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: url("./assets/images/paperBack.jpg");
+    background-size: 100% 16rem ;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 0px auto;
+}
+.intro-box{
+    height: 16rem;
+    margin-bottom: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title-box{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.title-box h1{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.title-box p{
+    font-size: 1.4rem;
+}
+.input-box{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.664);
+    padding:1.6rem;
+}
+.input-box button{
+    height: 3rem;
+    width: 9rem;
+    font-size: 1.2rem;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+.input-box label{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.input-box input{
+    width: 19rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    padding-left: 0.4rem;
+    border: none;
+}
+.ipsum-para{
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+}
+br{
+    margin-bottom: 3rem;
+
+}
+@media only screen and (width < 576px) {
+    .container{
+        max-width: 100%;
+        margin: 0px;
+    }
+    body{
+        background-size: 100% 20rem;
+
+    }
+    .input-box{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.664);
+        padding:1.6rem;
+    }
+}
+@media only screen and (768px > width >= 576px) {
+    .container{
+        max-width: 520px;
+
+    }
+}
+@media only screen and (992px > width >= 768px){
+    .container{
+        max-width: 720px;
+
+    }
+}
+@media only screen and (width >= 992px){
+    .container{
+        max-width: 960px;
+
+    }
+}
