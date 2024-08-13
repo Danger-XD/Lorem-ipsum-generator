@@ -2,7 +2,7 @@ let paraNumb = document.getElementById("para-value");
 let generateBtn = document.getElementById("generate-btn");
 let ipsumPara = document.getElementById("ipsum-para");
 let ipsumUrl = "https://api.api-ninjas.com/v1/loremipsum?paragraphs="
-let apiKey = "Aqh0jbrjF4JgB+eRvwQ42w==kU27velBtycUf8jd";
+let apiKey = "Add your Api Key";
 let copyText = document.getElementById("copy-text");
 
 
